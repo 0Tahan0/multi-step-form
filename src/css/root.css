@@ -1,19 +1,19 @@
 :root {
-    /* ### Primary */
+  /* ### Primary */
 
---Marine-blue: hsl(213, 96%, 18%);
---Purplish-blue: hsl(243, 100%, 62%);
---Pastel-blue: hsl(228, 100%, 84%);
---Light-blue: hsl(206, 94%, 87%);
---Strawberry-red: hsl(354, 84%, 57%);
+  --Marine-blue: hsl(213, 96%, 18%);
+  --Purplish-blue: hsl(243, 100%, 62%);
+  --Pastel-blue: hsl(228, 100%, 84%);
+  --Light-blue: hsl(206, 94%, 87%);
+  --Strawberry-red: hsl(354, 84%, 57%);
 
-/* ### Neutral */
+  /* ### Neutral */
 
---Cool-gray: hsl(231, 11%, 63%);
---Light-gray: hsl(229, 24%, 87%);
---Magnolia: hsl(217, 100%, 97%);
---Alabaster: hsl(231, 100%, 99%);
---White: hsl(0, 0%, 100%);
+  --Cool-gray: hsl(231, 11%, 63%);
+  --Light-gray: hsl(229, 24%, 87%);
+  --Magnolia: hsl(217, 100%, 97%);
+  --Alabaster: hsl(231, 100%, 99%);
+  --White: hsl(0, 0%, 100%);
 }
 * {
   margin: 0;
@@ -42,6 +42,57 @@
 .ub-reg {
   font-family: "Ubuntu-regular";
 }
-p{
-    font-size: 16px !important;
+p {
+  font-size: 16px !important;
+}
+.blue-btn {
+  background-color: var(--Marine-blue);
+}
+.blue-btn:focus,
+.blue-btn:active,
+.blue-btn:hover {
+  background-color: var(--Marine-blue) !important;
+  opacity: 0.9;
+}
+.blue-btn:disabled {
+  background-color: var(--Marine-blue);
+}
+
+.blue-btn-2 {
+  background-color: var(--Purplish-blue);
+}
+.blue-btn-2:focus,
+.blue-btn-2:active,
+.blue-btn-2:hover {
+  background-color: var(--Purplish-blue) !important;
+  opacity: 0.9;
+}
+.blue-btn-2:disabled {
+  background-color: var(--Purplish-blue);
+}
+body,
+html {
+  height: 100%;
+}
+html {
+  font-size: calc(12px + 0.3vw);
+}
+.mainBtn {
+  padding: 0.7rem 1.2rem;
+}
+
+.fsm-xm {
+  font-size: 0.8rem !important;
+}
+.fsm-sm {
+  font-size: 1rem !important;
+}
+.fsm-med {
+  font-size: 1.2rem !important;
+}
+.fsm-lg {
+  font-size: 1.5rem !important;
+}
+.fsm-xlg {
+  font-size: 1.8rem !important;
 }
